@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "eicar"
-  spec.version       = "0.1.1"
+  spec.name          = "meicar"
+  spec.version       = "0.1.0"
   spec.authors       = ["Nathan Clark"]
   spec.email         = ["Nathan.Clark@tokenshift.com"]
 
   spec.summary       = %q{Fake malware to test virus scanners.}
-  spec.homepage      = "https://github.com/tokenshift/eicar"
+  spec.homepage      = "https://github.com/tokenshift/meicar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

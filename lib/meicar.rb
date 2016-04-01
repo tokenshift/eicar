@@ -1,6 +1,6 @@
 require "tempfile"
 
-module Eicar
+module Meicar
   TEST_STRING = "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"
 
   # Instantiates an "infected" file in a temp folder, passes its path, and then
